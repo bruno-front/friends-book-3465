@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.App-header {
+  padding: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.App-main {
+  flex-grow: 1;
+  display: flex;
+}
+
+.App-sidebar {
+  flex-basis: 200px;
+  padding: 20px;
+  border-right: 1px solid gray;
+}
+
+.App-views {
+  flex-grow: 1;
+  padding: 20px;
+}
