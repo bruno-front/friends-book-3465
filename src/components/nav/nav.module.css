@@ -10,12 +10,17 @@
     list-style: none;
 }
 
-.link {
+.link,
+.active {
     display: block;
     padding: 4px 8px;
     font-weight: 500;
     border-radius: 4px;
     color: #000;
     text-decoration: none;
-    background-color: lightgray;
+    background-color: #f8f8f8;
+}
+
+.active {
+    background-color: #d2f6f6;
 }
